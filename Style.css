@@ -1,0 +1,27 @@
+h1{
+    display: block;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-shadow: 0 0 0.2em white, 0 0 0.2em white, 0 0 0.2em white, 0 0 0.2em white;
+}
+
+h2{
+    font-size: 20px;
+    color: rgb(24, 24, 24);
+    text-align: center;
+    text-shadow: 0 0 0.2em white, 0 0 0.2em white, 0 0 0.2em white, 0 0 0.2em white;
+}
+
+body{
+    background-image: url(background_img.jpg);
+    background-size: cover;
+}
+
+canvas{
+    border: 1px solid black;
+    background-color: rgb(166, 255, 173);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
