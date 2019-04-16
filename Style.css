@@ -3,25 +3,26 @@ h1{
     font-size: 30px;
     color: rgb(0, 0, 0);
     text-align: center;
-    text-shadow: 0 0 0.2em white, 0 0 0.2em white, 0 0 0.2em white, 0 0 0.2em white;
+    text-shadow: 0.05em 0.05em 0.1em rgba(0, 0, 255, 0.705);
 }
 
 h2{
     font-size: 20px;
     color: rgb(24, 24, 24);
     text-align: center;
-    text-shadow: 0 0 0.2em white, 0 0 0.2em white, 0 0 0.2em white, 0 0 0.2em white;
+    text-shadow: 0.05em 0.05em 0.1em rgba(0, 0, 255, 0.705);
 }
 
 body{
-    background-image: url(background_img.jpg);
+    background-color: rgb(212, 255, 241);
     background-size: cover;
 }
 
 canvas{
     border: 1px solid black;
-    background-color: rgb(166, 255, 173);
+    background-color: rgb(42, 209, 56);
     display: block;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 2px 2px 7px;
 }
